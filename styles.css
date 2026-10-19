@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('img/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+
+.nome {
+    color: #ff3cac;
+    font-size: 360px;
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+}
+.textos {
+    bottom: 0;
+    position: absolute;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.etiqueta {
+    color: #ffd319;
+    font-size: 26px;
+}
+
+.etiqueta2 {
+    color: #ffffff;
+    font-size: 80px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.lucia {
+    background-color: #ffffff;
+    background-image: url('img/lucia.png');
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: top;
+    width: 60px;
+    height: 60px;
+}
+
+.jason {
+    background-color: #ffffff;
+    background-image: url('img/jason.png');
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: top;
+    width: 60px;
+    height: 60px;
+}
+
+.cj {
+    background-color: #ffffff;
+    background-image: url('img/cj.png');
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: top;
+    width: 60px;
+    height: 60px;
+}
+
+.voce {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: top;
+    width: 60px;
+    height: 60px;
+}
